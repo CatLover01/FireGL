@@ -1,0 +1,14 @@
+# Ignore build output
+out/
+build/
+
+# Ignore user-specific and temporary files
+.vs/
+
+# Ignore assimp built stuff that gets fetched and copied in the source file to further use them
+#ignore any folder called assimp
+/extlibs/lib/assimp/
+
+#ignore the files that are in the includes but generated when building assimp:
+/extlibs/include/External/assimp/config.h
+/extlibs/include/External/assimp/revision.h
